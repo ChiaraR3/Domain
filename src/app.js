@@ -3,7 +3,6 @@ import "bootstrap";
 import "./style.css";
 
 window.onload = function GetDomain(element) {
-  var DomainNames = [];
   let pronouns = ["the", "our"];
   let adjs = ["great", "big"];
   let nouns = ["jogger", "racoon"];
@@ -25,7 +24,7 @@ window.onload = function GetDomain(element) {
         for (let y = 0; y < webs.length; y++) {
           web = webs[y];
 
-          return [pro + adj + noun + web];
+          console.log(pro + adj + noun + web);
         }
       }
     }
